@@ -1,3 +1,17 @@
+Toblen Stonehill Toblen's goal for today is to start a conversation with a neighbor in the Town Square.
+Daran Edermath Go out in the town square to meet people.
+Linene Graywind Linene's goal for today is to take care of some paperwork for her trading post.
+Halia Thornton Halia's goal for the day is to establish the Miner's Exchange as the town's governing authority and build strong relationships with the locals.
+Qelline Alderleaf Meet people, explore town. Expectations: Qualified Farmer / Host.
+Sister Garaele Sister Garaele's goal for today is to provide peace and understanding to the town.
+Harbin Wester I want to make a positive impact on the town of Phandalin and foster good relations among its people.
+Terrill Bloodscar To rob and ambush adventurers in the town square.
+Conrad Scarface rob or kill adventurers. (From Conrad's perspective)
+Nellie Starsmith my goal for today is to rob an adventurer with a map.
+/home/junde/miniconda3/lib/python3.11/site-packages/transformers/pipelines/base.py:1090: UserWarning: You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+  warnings.warn(
+Valerie Grinblade Valerie's goal today is to rob or kill an adventurer in the town square.
+Token indices sequence length is longer than the specified maximum sequence length for this model (851 > 512). Running this sequence through the model will result in indexing errors
 Toblen Stonehill I sought out a neighbor in the Town Square and initiated a conversation. The neighbor could be a fellow trader, a local merchant, or a ruffian.
 Daran Edermath Observed and talked to the people in the town square.
 Linene Graywind I took care of some paperwork, met up with the other characters, and had some fun.
@@ -64,3 +78,69 @@ Valerie Grinblade Edermath Orchard 10 I waited for the adventurer to arrive in t
     - Emoji Representation: Conrad Scarface Phandalin Town Square 10 Flew next_hour, Preparation, Etiquette lessons.
     - Emoji Representation: Nellie Starsmith Shrine of Luck 10 Action: helped find an adventurer; Object: map.
     - Emoji Representation: Valerie Grinblade Edermath Orchard 10 waited_for_adventurer, gain_insight, kill_them.
+Toblen Stonehill Tresendar Manor 11 Tooblen met Harbin Wester and Nellie Starsmith in the Town Square in the next hour and introduced himself to the residents of Phandalin.
+Daran Edermath Stonehill Inn 11 I spent this hour engaging in conversation with the locals.
+Linene Graywind Shrine of Luck 11 I headed back to townmasters hall to talk with my team at 11:30.
+Halia Thornton Phandalin Miner's Exchange 11 I established the Miners Exchange as the towns governing authority and built strong relationships with the locals.
+Qelline Alderleaf Townmaster’s Hall 11 Qelline greets Qelline and goes to a local inn. She learns about its offerings and meets the proprietors. Qelline then joins the party. The party goes out and explores the neighboring towns. They look for any treasures the town has to offer. Once they return, they come back to Townmaster’s Hall, where they speak and exchange information.
+Sister Garaele Stonehill Inn 11 I engaged in conversation with the locals and tried to build trust and understanding.
+Harbin Wester Tresendar Manor 11 I take advantage of the opportunity to talk to Toblen Stonehill, Harbin Wester, and Nellie Starsmith to learn more about them and their roles in Phandalin. In addition, I think through my goals for the future of both Phandalin and Harbin Wester in order to determine a course of action.
+Terrill Bloodscar The Sleeping Giant 11 Terrill Bloodscar lurked in a place of safety and aim for the adventurers in the square. He paused to look behind and rummaged around for his next opportunity to rob or ambush them.
+Conrad Scarface Stonehill Inn 11 You prepared to make your own plan for a better tomorrow.
+Nellie Starsmith Tresendar Manor 11 Nellie smuggled a ring of thugs out of Tresendar Manor. I was going to rob an adventurer with a map, but the thugs were in too deep. After much negotiation, I managed to gain the location of the adventurer. I then negotiated with Harbin scoffing at the townmaster who was standing there.
+Valerie Grinblade Townmaster’s Hall 11 By 11:00, I decided to go to Townmasters Hall. I will look for Daran, who Ive been talking to earlier. Ill also try to catch up with Valerie Grinblade, who I havent seen in a while.
+    - Emoji Representation: Toblen Stonehill Tresendar Manor 11 Tooblen met Harbin Wester, Nellie Starsmith at Town Square in the next hour and introduced himself to the residents of Phandalin.
+    - Emoji Representation: Daran Edermath Stonehill Inn 11 Action: spent Object: conversation, locals
+    - Emoji Representation: Linene Graywind Shrine of Luck 11 [Headed back to townmasters hall, Talk with my team]
+    - Emoji Representation: Halia Thornton Phandalin Miner's Exchange 11 I SETTING Miners Exchange [ALTERNATIVE], BUILT STRONG re[REAL] ties with the locals.
+    - Emoji Representation: Qelline Alderleaf Townmaster’s Hall 11 Qelline greets [Action], Qelline goes to [Action], Local inn (Action), learns [Action], meets [Objects], [Occurrence]
+    - Emoji Representation: Sister Garaele Stonehill Inn 11 ACT, Object: Engaged in conversation, build trust, understand.
+    - Emoji Representation: Harbin Wester Tresendar Manor 11 Talked [action], Phoned [object], Future Goals [action], Informal [object], Staff Meeting [object], Nellie Starsmith [object], Phandalin Strategy [object], Harbin Wester [object]
+    - Emoji Representation: Terrill Bloodscar The Sleeping Giant 11 Terrill LOCKED, aim vs adventurers, looked, rummaged
+    - Emoji Representation: Conrad Scarface Stonehill Inn 11 Action: prepared, Object: better tomorrow.
+    - Emoji Representation: Nellie Starsmith Tresendar Manor 11 Action: robbery Object: map Description: Nellie smuggled a ring of thugs out of Tresendar Manor Action: rob an adventurer with a map Description: Too deep Negotiation with Harbin Object: The location of the adventurer After much negotiation I gained the location of the adventurer Description: Scoffing at the townmaster
+    - Emoji Representation: Valerie Grinblade Townmaster’s Hall 11 Action: go to Townmasters Hall, look for Daran, try to catch up with Valerie Grinblade. Object: Valerie Grinblade.
+Toblen Stonehill Barthen's Provisions 12 I entered the Town Square at noon and set up a conversation with a neighbor.
+Daran Edermath Shrine of Luck 12 I went out in the town square, interacting with people, building relationships.
+Linene Graywind Alderleaf Farm 12 Linnet took care of paperwork for trading post.
+Halia Thornton Stonehill Inn 12 Lets eat lunch at the inn, then start talking to the other two people.
+Qelline Alderleaf Stonehill Inn 12 She would drink and catch up with Halia and Qelline. She would discuss the various problems facing the town. Additionally, she would explore the alleys and investigate the mines to gain better insight.
+Sister Garaele Tresendar Manor 12 She used this hour to attempt to improve understanding between the residents of Tresendar Manor.
+Harbin Wester Townmaster’s Hall 12 I organized a meeting with Harbin and Terrill.
+Terrill Bloodscar Townmaster’s Hall 12 Terrill Bloodscar made preparations for an ambush and robbery mission, tracking activities in Tresendar Manor to determine the best side of the square to remain undetected.
+Conrad Scarface Stonehill Inn 12 Conrad observed activity in the town square until 1 PM.
+Nellie Starsmith Alderleaf Farm 12 Linene and I met to discuss our plans for the next hour. We discussed the plan we had set for the evening. It was determined to rob the adventurer, but Nellie had no intention of stopping them. Despite their reservations, we formed an alliance and plan the attack together. After the robbery was complete, Nellie and I began using the map to locate our next victim.
+Valerie Grinblade Barthen's Provisions 12 Valerie left Barthens Provisions at 12:45 pm to take advantage of the opportunity presented by the next town square gathering.
+    - Emoji Representation: Toblen Stonehill Barthen's Provisions 12 Action: entered Object: neighbor Time: noon.
+    - Emoji Representation: Daran Edermath Shrine of Luck 12 Action: wentOut, Object: buildingRELATIONSHIPS
+    - Emoji Representation: Linene Graywind Alderleaf Farm 12 Linnet: Take care of paperwork Trading post: Object.
+    - Emoji Representation: Halia Thornton Stonehill Inn 12 Action: eat lunch Object: inn
+    - Emoji Representation: Qelline Alderleaf Stonehill Inn 12 A: drink, catch up, discuss, explore, investigate, mines B: None
+    - Emoji Representation: Sister Garaele Tresendar Manor 12 Action: attempt to improve understanding Object: Tresendar Manor Residents
+    - Emoji Representation: Harbin Wester Townmaster’s Hall 12 action: organized, object: meeting, with: Harbin, with: Terrill.
+    - Emoji Representation: Terrill Bloodscar Townmaster’s Hall 12 Action: madePreparations forAmbushAndRobberyMission, trackingWork: TresendarManor, remain_undetected
+    - Emoji Representation: Conrad Scarface Stonehill Inn 12 Action: Observed Object: Town square until 1 PM
+    - Emoji Representation: Nellie Starsmith Alderleaf Farm 12 Action: met, plan, action, plan, plan, attack, action; Action: rob, action, plan, action, attack, action, plan; Action: locate, action, attack; Action: rob, action; Action: set, action, plan; Action: rob, attack; Action: rob, target, plan; Task: locate, attack; Action: rob, target; Action: pick, attack, target.
+    - Emoji Representation: Valerie Grinblade Barthen's Provisions 12 Valerie, Barthens Provisions, 12:45 pm, opportunity, next town square gathering.
+Toblen Stonehill The Sleeping Giant 13 me noonput > [Description of the Tap House] [Recollection of the Neighborhood]
+Daran Edermath Edermath Orchard 13 Daran went out in the town square, met people and made connections.
+Linene Graywind The Sleeping Giant 13 Linene did some paperwork for her trading post.
+Halia Thornton Shrine of Luck 13 I spent time interacting with the locals. I asked them questions on their experiences and hopes for the future of their town. I also tried to build more relationships with the locals by being friendly and understanding, establishing trust.
+Qelline Alderleaf Barthen's Provisions 13 I took the time to talk to other people in Barthens Provisions and explore the town.
+Sister Garaele The Sleeping Giant 13 Sister Garaele aims to talk to Toblen Stonehill and Linene Graywind about the state of the town, and then move to The Sleeping Giant to get to know the people.
+Harbin Wester Alderleaf Farm 13 I organized a meeting with Quillen Stonehill and her colleagues to discuss ways to bring about positive change in the Town of Phandalin.
+Terrill Bloodscar Tresendar Manor 13 I set my sights on the town square. I scoured the ruined manor and tried to gather up any adventurers in the area. If they escape, I ambushed them and killed them.
+Conrad Scarface Edermath Orchard 13 I robbed the adventurers in the next hour while keeping a close eye on the town square. I also searched for lines of the adventurers, if they were still alive, to ensure their safety for my own amusement.
+Nellie Starsmith Tresendar Manor 13 I waited for the adventurer to enter Tresendar Manor at 13:00. If they do enter, then I and the other Redbrand ruffians will attempt to rob them. If the adventurer shows any remorse for his crimes, then I can use my star rating to outsmart him.
+Valerie Grinblade Edermath Orchard 13 Valerie Grinblade: This town was full of adventurers, so it was the perfect place to rob or murder one. I had come to the place with my goal in mind, so I was eager to make myself known.
+    - Emoji Representation: Toblen Stonehill The Sleeping Giant 13 Noonput -> [Object] Description -> [Object] Recollection -> [Object]
+    - Emoji Representation: Daran Edermath Edermath Orchard 13 Daran: went out in the town square, met people
+    - Emoji Representation: Linene Graywind The Sleeping Giant 13 Linene, trading post, paperwork.
+    - Emoji Representation: Halia Thornton Shrine of Luck 13 Action: Interacting; Object: Locals; Action: Asking Questions; Object: Experiences, Hopes.
+    - Emoji Representation: Qelline Alderleaf Barthen's Provisions 13 - Talked - Explored
+    - Emoji Representation: Sister Garaele The Sleeping Giant 13 Sister Garaele -> Talk to Toblen Stonehill, Linene Graywind -> Get to know the people, move to The Sleeping Giant -> Get to know people
+    - Emoji Representation: Harbin Wester Alderleaf Farm 13 [organized, meeting, Quillen Stonehill, colleagues, positive change]
+    - Emoji Representation: Terrill Bloodscar Tresendar Manor 13 Action: Set sights on town square; Object: Gather adventurers in the area; Action: ambushed and killed if escaping.
+    - Emoji Representation: Conrad Scarface Edermath Orchard 13 Action: robbed Object: adventurers, town square, search for lines.
+    - Emoji Representation: Nellie Starsmith Tresendar Manor 13 Action: Waited for Adventurer to enter Tresendar Manor, Attached Object: Adventurer [] Object: 13:00, Depending on the Adventurers remorse for their crimes.
+    - Emoji Representation: Valerie Grinblade Edermath Orchard 13 Action: Rob, Murder Object: Adventurer #Place was full of adventurers, ideal for murder Action: Arrived with goal in mind, eager to make myself known #Description of goal: goal: to accomplish my mission of capturing and executing the assassin or robber  action: attacked ] #Act: [Action, Object: [adventurer, attack]];
