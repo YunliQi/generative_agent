@@ -1,0 +1,4 @@
+11.29/23 llama2-7b generated more fine-grained results than the original language model, it seems the advanced model can simulate the game better 
+as it provides more details, like the specific conversation between two characters. the problem is llama is much slower than the other, maybe try
+exllama
+ 

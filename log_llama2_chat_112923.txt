@@ -151,3 +151,129 @@ Object: Nellie Starsmith
     - Emoji Representation: Valerie Grinblade Tresendar Manor 9 
 
 (Action, Object) = (approached, Daran Edermath)
+
+
+I kept observing the townspeople and gathered information to plan my next move.
+Nellie Starsmith The Sleeping Giant 10 
+    I caused trouble for the adventurers, knocking over their belongings or spreading rumors about them. (10 words)
+Valerie Grinblade Tresendar Manor 10 
+
+I approached Halia and asked her if she had any information about the missing miners.
+    - Emoji Representation: Toblen Stonehill Phandalin Miner's Exchange 10 
+
+Action: greeted
+Object: Halia Thornton
+    - Emoji Representation: Daran Edermath Tresendar Manor 10 
+
+(Action, Object) = (approached, Halia)
+    - Emoji Representation: Linene Graywind Townmaster’s Hall 10 
+
+Action: greeted
+Object: Terrill
+    - Emoji Representation: Halia Thornton Tresendar Manor 10 
+
+Action: approached
+Object: Halia Thornton
+    - Emoji Representation: Qelline Alderleaf Tresendar Manor 10 
+
+(Head to market, market)
+    - Emoji Representation: Sister Garaele Tresendar Manor 10 
+
+Action: attend
+Object: town hall meeting
+    - Emoji Representation: Harbin Wester Tresendar Manor 10 
+
+Action: headed
+Object: Town Hall
+    - Emoji Representation: Terrill Bloodscar Townmaster’s Hall 10 
+
+Action: approached
+Object: Terrill Bloodscar
+    - Emoji Representation: Conrad Scarface Tresendar Manor 10 
+
+Action: observe
+Object: townspeople
+    - Emoji Representation: Nellie Starsmith The Sleeping Giant 10 
+
+Action: knocked
+Object: belongings
+    - Emoji Representation: Valerie Grinblade Tresendar Manor 10 
+
+(Action, Object) = (approached, Halia)
+Toblen Stonehill Shrine of Luck 11 
+
+    I approached the altar in the shrine and offered a silent prayer to Tymora, asking for good fortune and prosperity for my trading post and the people of Phandalin.
+Daran Edermath Stonehill Inn 11 
+
+I asked Halia about the strange happenings in the mines and see if she had any information on the missing miners.
+Linene Graywind Townmaster’s Hall 11 
+
+I approached Sister Garaele and asked for more information on the orc threat.
+Halia Thornton Tresendar Manor 11 
+
+    I gathered information from Halia Thornton and the townspeople, and assessed the potential threats or opportunities posed by the recent mining activity.
+Qelline Alderleaf Tresendar Manor 11 
+
+I cautiously approached the market and gathered supplies while inquiring about any valuable discoveries in the area and the recent mining activity, also investigated the rumors of something big and exciting happening in the area while being resourceful and thorough in my investigation to uncover the truth and ensure the safety and well-being of myself and those around me.
+Sister Garaele Townmaster’s Hall 11 
+
+    I approached Sister Garaele and began to converse with her, seeking to gather information and offer my expertise as a cleric of Tymora.
+Harbin Wester Tresendar Manor 11 
+
+I headed to the town hall to review the towns records and prepare for the annual town meeting.
+Terrill Bloodscar Alderleaf Farm 11 
+
+I kept a close eye on Terrill Bloodscar and gathered information about his plans and any potential threats he may have posed to Phandalin.
+Conrad Scarface Tresendar Manor 11 
+
+    I observed and gathered information on any potential adventurers in the area, looking for any signs of weakness or vulnerability that I could exploit.
+Nellie Starsmith Townmaster’s Hall 11 
+
+    I tried to gather information about the adventurers and planned my next move to cause trouble for them. (10 words)
+Valerie Grinblade The Sleeping Giant 11 
+
+I approached Halia and asked if she had heard any more information about the missing miners and the strange happenings in the mines.
+    - Emoji Representation: Toblen Stonehill Shrine of Luck 11 
+
+Action: approached
+Object: altar, Tymora, prayer
+    - Emoji Representation: Daran Edermath Stonehill Inn 11 
+
+(Ask, Halia)
+    - Emoji Representation: Linene Graywind Townmaster’s Hall 11 
+
+Action: approached
+Object: Sister Garaele
+    - Emoji Representation: Halia Thornton Tresendar Manor 11 
+
+Action: gathered
+Object: Halia Thornton, townspeople
+
+So the tuple would be:
+(gathered, Halia Thornton, townspeople)
+    - Emoji Representation: Qelline Alderleaf Tresendar Manor 11 
+
+Action: approached, gathered, inquired, investigated
+Object: market, supplies, area, mining activity, rumors, truth, safety, well-being
+    - Emoji Representation: Sister Garaele Townmaster’s Hall 11 
+
+(Action, Object) = (approached, Sister Garaele)
+    - Emoji Representation: Harbin Wester Tresendar Manor 11 
+
+Action: headed
+Object: town hall
+    - Emoji Representation: Terrill Bloodscar Alderleaf Farm 11 
+
+Action: kept
+Object: Terrill Bloodscar and information about his plans and potential threats to Phandalin.
+    - Emoji Representation: Conrad Scarface Tresendar Manor 11 
+
+Action: Observe
+Object: Potential adventurers in the area
+    - Emoji Representation: Nellie Starsmith Townmaster’s Hall 11 
+
+(Action, Object) = (gather information, adventurers)
+    - Emoji Representation: Valerie Grinblade The Sleeping Giant 11 
+
+Action: asked
+Object: Halia
