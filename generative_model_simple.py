@@ -3,7 +3,7 @@ from transformers import pipeline
 import re
 
 # prompt = "Write an email about an alpaca that likes flan"
-model = pipeline(model="declare-lab/flan-alpaca-xl", device=0)
+model = pipeline(model="meta-llama/Llama-2-7b-chat-hf", device_map="auto")
 # print(model(prompt, max_length=128, do_sample=True))
 
 prompt = '''### Instruction:
