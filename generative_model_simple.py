@@ -19,19 +19,6 @@ def generate(prompt):
     out = out.split('### Instruction:')[0]
   return out
 
-# prompt = '''### Instruction:
-# Who is the first person on the moon?
-
-# ### Response:'''
-# def generate(prompt):
-#   output = model(prompt, do_sample=True, min_length=10, max_length=len(prompt)+128)
-#   out = output[0]['generated_text']
-#   if '### Response:' in out:
-#     out = out.split('### Response:')[1]
-#   if '### Instruction:' in out:
-#     out = out.split('### Instruction:')[0]
-#   return out
-
 world_graph = nx.Graph()
 
 prompt_meta = '''### Instruction:
