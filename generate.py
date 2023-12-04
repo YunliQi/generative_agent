@@ -3,6 +3,7 @@ import networkx as nx
 from transformers import pipeline
 import re
 from world_creater import build_world
+from .prompt import *
 
 
 pipeline = pipeline(model="meta-llama/Llama-2-7b-chat-hf", device_map="auto")
@@ -151,6 +152,7 @@ for name in town_people.keys():
 for repeats in range(5):
   global_time += 1
   action_prompts = {}
+  action_results = {}
   for location in town_areas.keys():
     people = []
     for i in town_people.keys():
@@ -161,12 +163,13 @@ for repeats in range(5):
       prompt = "You are {}. Your plans are: {}. You are currently in {} with the following description: {}. Your memories are: {}. It is currently {}:00. The following people are in this area: {}. You can interact with them.".format(name, plans[name], location, town_areas[location], '\n'.join(compressed_memories_all[name][-5:]), str(global_time), ', '.join(people))
       people_description = []
       for i in people:
-        people_description.append(i+': '+town_people[i])
-      prompt += ' You know the following about people: ' + '. '.join(people_description)
-      memory_text = '. '.join(memories[name][-10:])
-      prompt += "What do you do in the next hour? Use at most 10 words to explain."
-      action_prompts[name] = prompt
-  action_results = {}
+        people_description.append(i+': '+ agents[i].get_summary(force_refresh=True))
+      observation += ' You know the following about people: ' + '. '.join(people_description)
+      for i in people:
+        agents[i].memory.add_memory(observation)
+        _, reaction = agents[i].generate_reaction(observation)
+        
+
   for name in town_people.keys():
     action_results[name] = generate(prompt_meta.format(action_prompts[name]))
     # Now clean the action
