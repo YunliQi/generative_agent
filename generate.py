@@ -16,7 +16,6 @@ model = HuggingFacePipeline(pipeline=pipeline, model_kwargs={'temperature':0.7})
 locations, agents = creat_world(model)
 
 global_time = 0
-
 for repeats in range(5):
   global_time += 1
   print("In global time", global_time)
@@ -67,16 +66,16 @@ for repeats in range(5):
   #   """.format(action_results[name])
   #   action_emojis[name] = generate(prompt_meta.format(prompt)).replace('"', '').replace("'", '')
   #   print('    - Emoji Representation:', name, locations[name], global_time, action_emojis[name])
-  action_prompts = {}
-  for location in town_areas.keys():
-    people = []
-    for i in town_people.keys():
-      if locations[i] == location:
-        people.append(i)
+  # action_prompts = {}
+  # for location in town_areas.keys():
+  #   people = []
+  #   for i in town_people.keys():
+  #     if locations[i] == location:
+  #       people.append(i)
     
-    for name in people:
-      for name_two in people:
-        memories[name].append('[Time: {}. Person: {}. Memory: {}]\n'.format(str(global_time), name_two, action_results[name_two]))
+  #   for name in people:
+  #     for name_two in people:
+  #       memories[name].append('[Time: {}. Person: {}. Memory: {}]\n'.format(str(global_time), name_two, action_results[name_two]))
 
   # memory_ratings = {}
   # for name in town_people.keys():
