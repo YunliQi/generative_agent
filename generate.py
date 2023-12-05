@@ -38,12 +38,11 @@ for repeats in range(5):
 
 
     for i in people: # add observation to memory and react
-      observation = "You are {}. Your plans are: {}. You are currently in {} with the following description: {}. \
-      Your memories are: {}. It is currently {}:00. The following people are in this area: {}. You can interact with them.". \
-      format(i, plans[name], location, town_areas[location], '\n'.join(compressed_memories_all[name][-5:]), str(global_time), ', '.join(people))
+      observation = "You are {}.You are currently in {} with the following description: {}. \
+      It is currently {}:00. The following people are in this area: {}. You can interact with them.". \
+      format(i, location, town_areas[location], str(global_time), ', '.join(people))
 
       observation += ' You know the following about people: ' + '. '.join(people_description)
-
 
       agents[i].memory.add_memory(observation)
       _, reaction = agents[i].generate_reaction(observation)
