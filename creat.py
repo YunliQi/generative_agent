@@ -8,7 +8,7 @@ from langchain.retrievers import TimeWeightedVectorStoreRetriever
 from langchain.vectorstores import FAISS
 from datetime import datetime, timedelta
 from typing import List
-from .prompt import *
+from prompt import *
 
 
 from langchain_experimental.generative_agents import (
@@ -51,7 +51,7 @@ def create_new_memory_retriever():
     # Define your embedding model
     embeddings_model = HuggingFaceEmbeddings()
     # Initialize the vectorstore as empty
-    embedding_size = 1536
+    embedding_size = 768 # it is a value only for llama-2-7b-chat model
     index = faiss.IndexFlatL2(embedding_size)
     vectorstore = FAISS(
         embeddings_model.embed_query,
