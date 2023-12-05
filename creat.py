@@ -47,9 +47,11 @@ def relevance_score_fn(score: float) -> float:
 
 
 def create_new_memory_retriever():
+    model_name = "sentence-transformers/all-mpnet-base-v2"
+    model_kwargs = {"device": "cuda"}
     """Create a new vector store retriever unique to the agent."""
     # Define your embedding model
-    embeddings_model = HuggingFaceEmbeddings()
+    embeddings_model = HuggingFaceEmbeddings(model_name = model_name, model_kwargs=model_kwargs)
     # Initialize the vectorstore as empty
     embedding_size = 768 # it is a value only for llama-2-7b-chat model
     index = faiss.IndexFlatL2(embedding_size)
