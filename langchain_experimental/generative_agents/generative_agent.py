@@ -54,7 +54,7 @@ class GenerativeAgent(BaseModel):
 
     def _get_entity_from_observation(self, observation: str) -> str:
         prompt = PromptTemplate.from_template(
-            "What is the observed entity in the following observation? {observation}"
+            "What is the entity you are most likely to interact in the following observation? {observation}"
             + "\nEntity="
         )
         return self.chain(prompt).run(observation=observation).strip()
@@ -138,6 +138,10 @@ Relevant context:
         full_result = self._generate_reaction(
             observation, call_to_action_template, now=now
         )
+
+        print("full action logic")
+        print(full_result)
+
         result = full_result.strip().split("\n")[0]
         # AAA
         self.memory.save_context(

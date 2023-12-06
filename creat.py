@@ -85,7 +85,7 @@ def create_agent(model, name, age, traits, status, summary):
         memory=tommies_memory,
     )
 
-    print("You are creating a new agent: " + str(name))
-    print(tommie.get_summary())
+    # print("You are creating a new agent: " + str(name))
+    # print(tommie.get_summary())
 
     return tommie
