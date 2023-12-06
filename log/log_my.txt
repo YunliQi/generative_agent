@@ -6,4 +6,9 @@ exllama
 
 solve the illusion (force_refresh = false, or it will summerize each character again on a higer level)
 
-next: no observe same person (control interacted entity), avoid options, temperarily solve/avoid relationship
+next: no observe same person (control interacted entity) done
+temperarily solve/avoid relationship done
+reaction pick done
+
+next: avoid options
+figure out memory mechanism (maybe use langsmith)

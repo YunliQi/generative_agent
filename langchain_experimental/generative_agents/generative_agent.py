@@ -101,7 +101,13 @@ Relevant context:
         )
         agent_summary_description = self.get_summary(now=now)
         relevant_memories_str = self.summarize_related_memories(observation)
+
+        print("agent_summary_description is:", agent_summary_description)
+        print("end")
+
         print("relevant_mem is:", relevant_memories_str)
+        print("end")
+
         current_time_str = (
             datetime.now().strftime("%B %d, %Y, %I:%M %p")
             if now is None
@@ -141,8 +147,15 @@ Relevant context:
 
         print("full action logic")
         print(full_result)
+        print("end")
 
-        result = full_result.strip().split("\n")[0]
+        results = full_result.strip().split("\n")
+        result = " "
+
+        for r in results:
+            if "REACT:" in r or "SAY:" in r:
+                result = r
+                break
         # AAA
         self.memory.save_context(
             {},
