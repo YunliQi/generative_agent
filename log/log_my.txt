@@ -2,4 +2,8 @@
 as it provides more details, like the specific conversation between two characters. the problem is llama is much slower than the other, maybe try
 exllama
 
-12.5/23 1. llama2 too big, improve the effeciency. 2. wired description of each people, debug.
+12.5/23 1. llama2 too big, improve the effeciency. (accumulate gpu usage) 2. wired description of each people, debug. 
+
+solve the illusion (force_refresh = false, or it will summerize each character again on a higer level)
+
+next: no observe same person (control interacted entity), avoid options, temperarily solve/avoid relationship
