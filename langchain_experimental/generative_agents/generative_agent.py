@@ -55,6 +55,8 @@ class GenerativeAgent(BaseModel):
     def _get_entity_from_observation(self, observation: str) -> str:
         prompt = PromptTemplate.from_template(
             "What is the entity you are most likely to interact in the following observation? {observation}"
+            + "\nAnswer me using one person name"
+            + "\nDo not ask me anything"
             + "\nEntity="
         )
         return self.chain(prompt).run(observation=observation).strip()
@@ -62,6 +64,7 @@ class GenerativeAgent(BaseModel):
     def _get_entity_action(self, observation: str, entity_name: str) -> str:
         prompt = PromptTemplate.from_template(
             "What is the {entity} doing in the following observation? {observation}"
+            + "\nDo not ask me anything"
             + "\nThe {entity} is"
         )
         return (
@@ -79,7 +82,13 @@ Relevant context:
 """
         )
         entity_name = self._get_entity_from_observation(observation)
+        print("the entity i care most is", entity_name)
+        print("end")
+
         entity_action = self._get_entity_action(observation, entity_name)
+        print("the entities' action is", entity_action)
+        print("end")
+
         q1 = f"What is the relationship between {self.name} and {entity_name}"
         q2 = f"{entity_name} is {entity_action}"
         return self.chain(prompt=prompt).run(q1=q1, queries=[q1, q2]).strip()
@@ -136,7 +145,7 @@ Relevant context:
         """React to a given observation."""
         call_to_action_template = (
             "Should {agent_name} react to the observation, and if so,"
-            + " what would be an appropriate reaction? Respond in one line."
+            + " what would be an appropriate reaction? Respond in one line. Respond only one reaction"
             + ' If the action is to engage in dialogue, write:\nSAY: "what to say"'
             + "\notherwise, write:\nREACT: {agent_name}'s reaction (if anything)."
             + "\nEither do nothing, react, or say something but not both.\n\n"
