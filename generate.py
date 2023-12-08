@@ -47,12 +47,10 @@ for repeats in range(5):
       others_des = [x for x in people_description if i+': ' not in x]
       observation += ' You know the following about people: ' + '. '.join(others_des)
 
-      # print("for people", i)
-      # print("the observation is:", observation)
+      print("For people %s, The observation is: %s \n" % (i, observation))
 
       agents[i].memory.add_memory(observation)
       _, reaction = agents[i].generate_reaction(observation)
       action_results[i] = reaction
 
-      print("action result is:")
-      print(reaction)
+      print("action result is:  %s \n" %(reaction))
