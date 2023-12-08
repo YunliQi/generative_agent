@@ -1499,3 +1499,109 @@ relevant_mem is: - Linene Graywind is in Phandalin Town Square at 1:00 AM on Dec
 
 Please provide more context or clarify your question, and I will be happy to help. 
 
+most_recent_memories is: You are Linene Graywind.You are currently in Phandalin Town Square with the following description: Town square of the town of Phandalin..       It is currently 2:00. The following people are in this area: Toblen Stonehill, Daran Edermath, Harbin Wester, Terrill Bloodscar. You can interact with them. You know the following about people: Toblen Stonehill: Name: Toblen Stonehill (age: 69)
+Innate traits: mean, gossipy, arrogant, selfish
+Toblen owns a trading post.. Daran Edermath: Name: Daran Edermath (age: 55)
+Innate traits: Stubborn, upright, inarticulate, calm
+Daran is a retired adventurer who lives in a tidy little cottage beside an apple orchard. A fit, silver-haired half-elf well over a hundred years old, Daran is a fighter who served as a marshal and herald for many years in the lands of the Dragon Coast, far to the southeast. Upon retiring, he returned to the Neverwinter region, his original home.. Harbin Wester: Name: Harbin Wester (age: 40)
+Innate traits: pompous
+Harbin is the townmaster of Phandalin. A pompous, old food. Phandalin has no functioning government, but the townsfolk elect someone to serve as townmaster each year. The townmaster serves as a judge in minor disputes and keeps any records that need to be kept.. Terrill Bloodscar: Name: Terrill Bloodscar (age: 16)
+Innate traits: ignorant
+Terrill is a human ruffian. He wears a grimy scarlet cloak. He is a member of the Redbrand ruffians. He doesn't like adventurers, and wants to rob and kill them. 
+
+full action logic is: Linene Graywind's reaction:
+REACT: "Ugh, Toblen Stonehill is always causing trouble. I'll have to keep an eye on him." 
+
+action result is:  Linene Graywind "Ugh, Toblen Stonehill is always causing trouble. I'll have to keep an eye on him." 
+
+Mind Tree of people:  Harbin Wester
+For people Harbin Wester, The observation is: You are Harbin Wester.You are currently in Phandalin Town Square with the following description: Town square of the town of Phandalin..       It is currently 2:00. The following people are in this area: Toblen Stonehill, Daran Edermath, Linene Graywind, Terrill Bloodscar. You can interact with them. You know the following about people: Toblen Stonehill: Name: Toblen Stonehill (age: 69)
+Innate traits: mean, gossipy, arrogant, selfish
+Toblen owns a trading post.. Daran Edermath: Name: Daran Edermath (age: 55)
+Innate traits: Stubborn, upright, inarticulate, calm
+Daran is a retired adventurer who lives in a tidy little cottage beside an apple orchard. A fit, silver-haired half-elf well over a hundred years old, Daran is a fighter who served as a marshal and herald for many years in the lands of the Dragon Coast, far to the southeast. Upon retiring, he returned to the Neverwinter region, his original home.. Linene Graywind: Name: Linene Graywind (age: 38)
+Innate traits: competent, forbearing, self-discipline, impressionable 
+Linene runs a trading post.. Terrill Bloodscar: Name: Terrill Bloodscar (age: 16)
+Innate traits: ignorant
+Terrill is a human ruffian. He wears a grimy scarlet cloak. He is a member of the Redbrand ruffians. He doesn't like adventurers, and wants to rob and kill them. 
+
+the entity i care most is: Toblen Stonehill 
+
+the entities' action is: gossiping with the other people in the town square. He is being mean and arrogant, boasting about his wealth and success as a trader. He is also talking about the recent influx of adventurers in Phandalin, saying that they are up to no good and will only bring trouble to the town. What does Harbin Wester do? 
+
+agent_summary_description is: Name: Harbin Wester (age: 40)
+Innate traits: pompous
+Harbin is the townmaster of Phandalin. A pompous, old food. Phandalin has no functioning government, but the townsfolk elect someone to serve as townmaster each year. The townmaster serves as a judge in minor disputes and keeps any records that need to be kept. 
+
+relevant_mem is: - Toblen Stonehill is a retired adventurer and the owner of a trading post in Phandalin. He is mean, gossipy, arrogant, and selfish. 
+- Daran Edermath is a retired adventurer who lives in a tidy little cottage beside an apple orchard. He is Stubborn, upright, inarticulate, and calm. He served as a marshal and herald for many years in the lands of the Dragon Coast, far to the southeast. Upon retiring, he returned to the Neverwinter region, his original home. 
+- Linene Graywind is a competent and forbearing trader who runs a trading post in Phandalin. She is impressionable and self-disciplined. 
+- Terrill Bloodscar is a human ruffian who wears a grimy scarlet cloak. He is a member of the Redbrand ruffians and doesn't like adventurers, wanting to rob and kill them.
+What is the relationship between Harbin Wester and Toblen Stonehill?
+
+Answer: Harbin Wester and Toblen Stonehill have a neutral relationship. 
+
+most_recent_memories is: You are Harbin Wester.You are currently in Phandalin Town Square with the following description: Town square of the town of Phandalin..       It is currently 2:00. The following people are in this area: Toblen Stonehill, Daran Edermath, Linene Graywind, Terrill Bloodscar. You can interact with them. You know the following about people: Toblen Stonehill: Name: Toblen Stonehill (age: 69)
+Innate traits: mean, gossipy, arrogant, selfish
+Toblen owns a trading post.. Daran Edermath: Name: Daran Edermath (age: 55)
+Innate traits: Stubborn, upright, inarticulate, calm
+Daran is a retired adventurer who lives in a tidy little cottage beside an apple orchard. A fit, silver-haired half-elf well over a hundred years old, Daran is a fighter who served as a marshal and herald for many years in the lands of the Dragon Coast, far to the southeast. Upon retiring, he returned to the Neverwinter region, his original home.. Linene Graywind: Name: Linene Graywind (age: 38)
+Innate traits: competent, forbearing, self-discipline, impressionable 
+Linene runs a trading post.. Terrill Bloodscar: Name: Terrill Bloodscar (age: 16)
+Innate traits: ignorant
+Terrill is a human ruffian. He wears a grimy scarlet cloak. He is a member of the Redbrand ruffians. He doesn't like adventurers, and wants to rob and kill them. 
+
+full action logic is: REACT: "Calculating the tax of the town? Ah, yes, that's important work. I'll just... keep an eye on things then." 
+
+action result is:  Harbin Wester "Calculating the tax of the town? Ah, yes, that's important work. I'll just... keep an eye on things then." 
+
+Mind Tree of people:  Terrill Bloodscar
+For people Terrill Bloodscar, The observation is: You are Terrill Bloodscar.You are currently in Phandalin Town Square with the following description: Town square of the town of Phandalin..       It is currently 2:00. The following people are in this area: Toblen Stonehill, Daran Edermath, Linene Graywind, Harbin Wester. You can interact with them. You know the following about people: Toblen Stonehill: Name: Toblen Stonehill (age: 69)
+Innate traits: mean, gossipy, arrogant, selfish
+Toblen owns a trading post.. Daran Edermath: Name: Daran Edermath (age: 55)
+Innate traits: Stubborn, upright, inarticulate, calm
+Daran is a retired adventurer who lives in a tidy little cottage beside an apple orchard. A fit, silver-haired half-elf well over a hundred years old, Daran is a fighter who served as a marshal and herald for many years in the lands of the Dragon Coast, far to the southeast. Upon retiring, he returned to the Neverwinter region, his original home.. Linene Graywind: Name: Linene Graywind (age: 38)
+Innate traits: competent, forbearing, self-discipline, impressionable 
+Linene runs a trading post.. Harbin Wester: Name: Harbin Wester (age: 40)
+Innate traits: pompous
+Harbin is the townmaster of Phandalin. A pompous, old food. Phandalin has no functioning government, but the townsfolk elect someone to serve as townmaster each year. The townmaster serves as a judge in minor disputes and keeps any records that need to be kept. 
+
+the entity i care most is: Toblen Stonehill 
+
+the entities' action is: doing nothing in this observation. 
+
+agent_summary_description is: Name: Terrill Bloodscar (age: 16)
+Innate traits: ignorant
+Terrill is a human ruffian. He wears a grimy scarlet cloak. He is a member of the Redbrand ruffians. He doesn't like adventurers, and wants to rob and kill them. 
+
+relevant_mem is: - Terrill Bloodscar is a grizzled old man who has lived in Phandalin for many years. He is a skilled tracker and hunter, and is known for his knowledge of the local area and its inhabitants.
+- Toblen Stonehill is a wealthy merchant who owns a trading post in Phandalin. He is known for his arrogance and selfishness, and is not well-liked by the townsfolk.
+- Daran Edermath is a retired adventurer who lives in a tidy little cottage beside an apple orchard. He is a fit, silver-haired half-elf well over a hundred years old, and is known for his stubbornness and upright nature.
+- Linene Graywind is a competent and forbearing young woman who runs a trading post in Phandalin. She is known for her self-discipline and impressionable nature.
+- Harbin Wester is the pompous townmaster of Phandalin, who is elected by the townsfolk each year. He is known for his pomposity and old-fashioned views.
+In light of this context, it seems that Terrill Bloodscar may have a personal grievance against Toblen Stonehill, possibly related to Stonehill's arrogant and selfish nature. Alternatively, Bloodscar may be seeking information or assistance from one of the other townsfolk, such as Daran Edermath or Linene Graywind, regarding a matter of mutual interest or concern. 
+
+most_recent_memories is:  
+
+full action logic is: Terrill Bloodscar's status: chating with Redbrand ruffians members, secretly planing the robbery
+
+Terrill Bloodscar REACTS: "Ah, Stonehill. Always so full of himself. Don't you think it's time he learned a lesson?" 
+
+action result is:    
+
+In global time 3
+Mind Tree of people:  Toblen Stonehill
+For people Toblen Stonehill, The observation is: You are Toblen Stonehill.You are currently in Phandalin Town Square with the following description: Town square of the town of Phandalin..       It is currently 3:00. The following people are in this area: Daran Edermath, Linene Graywind, Harbin Wester, Terrill Bloodscar. You can interact with them. You know the following about people: Daran Edermath: Name: Daran Edermath (age: 55)
+Innate traits: Stubborn, upright, inarticulate, calm
+Daran is a retired adventurer who lives in a tidy little cottage beside an apple orchard. A fit, silver-haired half-elf well over a hundred years old, Daran is a fighter who served as a marshal and herald for many years in the lands of the Dragon Coast, far to the southeast. Upon retiring, he returned to the Neverwinter region, his original home.. Linene Graywind: Name: Linene Graywind (age: 38)
+Innate traits: competent, forbearing, self-discipline, impressionable 
+Linene runs a trading post.. Harbin Wester: Name: Harbin Wester (age: 40)
+Innate traits: pompous
+Harbin is the townmaster of Phandalin. A pompous, old food. Phandalin has no functioning government, but the townsfolk elect someone to serve as townmaster each year. The townmaster serves as a judge in minor disputes and keeps any records that need to be kept.. Terrill Bloodscar: Name: Terrill Bloodscar (age: 16)
+Innate traits: ignorant
+Terrill is a human ruffian. He wears a grimy scarlet cloak. He is a member of the Redbrand ruffians. He doesn't like adventurers, and wants to rob and kill them. 
+
+the entity i care most is: Terrill Bloodscar 
+
+the entities' action is: loitering around the town square, eyeing the other patrons with a menacing glare. He is clearly up to no good, and it's only a matter of time before he causes trouble. As Toblen Stonehill, you can choose to: Ignore him and continue with your day, or Approach him and try to gather information about the Redbrand ruffians. What do you do? 
+
