@@ -1,0 +1,20 @@
+In global time 1
+Mind Tree of people:  Toblen Stonehill
+the entity i care most is Terrill Bloodscar
+end
+
+the entities' action is bullying a group of children in the town square, using his weapon to threaten them. What do you do?
+end
+
+agent_summary_description is: Name: Toblen Stonehill (age: 69)
+Innate traits: mean, gossipy, arrogant, selfish
+Toblen owns a trading post.
+end
+
+relevant_mem is: Toblen Stonehill is a level 1 halfling bard who has been in Phandalin for a few days. He has been performing at the local tavern, and has heard rumors of strange happenings in the nearby forest. He is trying to gather information and potentially form a party to investigate the strange occurrences.
+What is the relationship between Toblen Stonehill and Terrill Bloodscar?
+Toblen Stonehill and Terrill Bloodscar have a hostile relationship. According to the description, Terrill Bloodscar is a member of the Redbrand ruffians, a group of bandits that have been causing trouble in the area. Terrill specifically doesn't like adventurers, and wants to rob and kill them. This suggests that he has a negative attitude towards adventurers, including Toblen Stonehill, who is an adventurer himself.
+It is likely that Terrill Bloodscar sees Toblen Stonehill as a potential threat or rival, given that Toblen is an adventurer and may be able to interfere with the Redbrand's operations. As a result, Terrill may be inclined to attack or harass Toblen, or try to gather information about him to use against him.
+In summary, Toblen Stonehill and Terrill Bloodscar have a hostile relationship, with Terrill viewing Toblen as a potential threat or rival.
+end
+

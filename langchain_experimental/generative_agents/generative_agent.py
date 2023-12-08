@@ -56,7 +56,6 @@ class GenerativeAgent(BaseModel):
         prompt = PromptTemplate.from_template(
             "What is the entity you are most likely to interact in the following observation? {observation}"
             + "\nAnswer me using one person name"
-            + "\nDo not ask me anything"
             + "\nEntity="
         )
         return self.chain(prompt).run(observation=observation).strip()
@@ -64,7 +63,7 @@ class GenerativeAgent(BaseModel):
     def _get_entity_action(self, observation: str, entity_name: str) -> str:
         prompt = PromptTemplate.from_template(
             "What is the {entity} doing in the following observation? {observation}"
-            + "\nDo not ask me anything"
+            + "\nBe concise"
             + "\nThe {entity} is"
         )
         return (
@@ -84,11 +83,11 @@ Relevant context:
         )
         entity_name = self._get_entity_from_observation(observation)
         print("the entity i care most is", entity_name)
-        print("end")
+        print("end\n")
 
         entity_action = self._get_entity_action(observation, entity_name)
         print("the entities' action is", entity_action)
-        print("end")
+        print("end\n")
 
         q1 = f"What is the relationship between {self.name} and {entity_name}"
         q2 = f"{entity_name} is {entity_action}"
@@ -122,13 +121,13 @@ Relevant context:
         )
         agent_summary_description = self.get_summary(now=now)
         relevant_memories_str = self.summarize_related_memories(observation)
-        relevant_memories_str = 'you hate all the people in the town'
+        # relevant_memories_str = 'you hate all the people in the town'
 
         print("agent_summary_description is:", agent_summary_description)
-        print("end")
+        print("end\n")
 
         print("relevant_mem is:", relevant_memories_str)
-        print("end")
+        print("end\n")
 
         current_time_str = (
             datetime.now().strftime("%B %d, %Y, %I:%M %p")
@@ -147,6 +146,10 @@ Relevant context:
             prompt.format(most_recent_memories="", **kwargs)
         )
         kwargs[self.memory.most_recent_memories_token_key] = consumed_tokens
+
+        print("most_recent_memories is:", self.memory.load_memory_variables({"most_recent_memories_token_key": consumed_tokens})["most_recent_memories_key"])
+        print("end\n")
+
         return self.chain(prompt=prompt).run(**kwargs).strip()
 
     def _clean_response(self, text: str) -> str:
@@ -159,7 +162,8 @@ Relevant context:
         call_to_action_template = (
             "Should {agent_name} react to the observation, and if so,"
             + " what would be an appropriate reaction? Respond in one line. Respond only one reaction"
-            + ' If the action is to engage in dialogue, write:\nSAY: "what to say"'
+            + "\nIf there are multiple options, just pick the first one."
+            + '\nIf the action is to engage in dialogue, write:\nSAY: "what to say"'
             + "\notherwise, write:\nREACT: {agent_name}'s reaction (if anything)."
             + "\nEither do nothing, react, or say something but not both.\n\n"
         )
