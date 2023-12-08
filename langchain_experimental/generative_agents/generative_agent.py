@@ -147,7 +147,7 @@ Relevant context:
         )
         kwargs[self.memory.most_recent_memories_token_key] = consumed_tokens
 
-        print("most_recent_memories is:", self.memory.load_memory_variables({"most_recent_memories_token_key": consumed_tokens})["most_recent_memories_key"])
+        print("most_recent_memories is:", self.memory._get_memories_until_limit(consumed_tokens))
         print("end\n")
 
         return self.chain(prompt=prompt).run(**kwargs).strip()

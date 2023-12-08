@@ -18,3 +18,398 @@ It is likely that Terrill Bloodscar sees Toblen Stonehill as a potential threat 
 In summary, Toblen Stonehill and Terrill Bloodscar have a hostile relationship, with Terrill viewing Toblen as a potential threat or rival.
 end
 
+In global time 1
+Mind Tree of people:  Toblen Stonehill
+the entity i care most is Terrill Bloodscar
+end
+
+the entities' action is behaving aggressively towards the other individuals in the town square. He is shouting insults and threats at them, and appears to be looking for a fight.
+end
+
+agent_summary_description is: Name: Toblen Stonehill (age: 69)
+Innate traits: mean, gossipy, arrogant, selfish
+Toblen owns a trading post.
+end
+
+relevant_mem is: - You are trying to find out more about the Redbrand ruffians, and you've heard that Terrill Bloodscar might have some information for you.
+- You are also trying to find out more about the town of Phandalin and its people, as you are considering settling here.
+What would you like to do?
+
+You can choose one of the following options:
+A) Ask Daran Edermath if he knows anything about the Redbrand ruffians.
+B) Ask Linene Graywind if she has any information about the town's people.
+C) Ask Harbin Wester if he knows anything about the town's government.
+D) Approach Terrill Bloodscar and try to intimidate him into giving you information.
+E) Ignore Terrill Bloodscar and continue exploring the town on your own.
+end
+
+In global time 1
+Mind Tree of people:  Toblen Stonehill
+the entity i care most is Daran Edermath
+end
+
+the entities' action is observing the town square with a keen eye, taking note of any suspicious activity.
+end
+
+agent_summary_description is: Name: Toblen Stonehill (age: 69)
+Innate traits: mean, gossipy, arrogant, selfish
+Toblen owns a trading post.
+end
+
+relevant_mem is: - Toblen Stonehill is a half-elf bard who has been traveling with a group of adventurers for several months. They have been hired by the town of Phandalin to investigate strange occurrences in the area.
+- Daran Edermath is a retired adventurer who lives in a cottage near the town square. He is known to be a stubborn and upright individual, but also calm and collected.
+- Linene Graywind is the owner of a trading post in the town. She is competent and forbearing, but also impressionable and can be easily swayed by others.
+- Harbin Wester is the townmaster of Phandalin. He is pompous and old-fashioned, but also keeps records and serves as a judge in minor disputes.
+- Terrill Bloodscar is a human ruffian who is a member of the Redbrand ruffians. He is ignorant and doesn't like adventurers, and wants to rob and kill them.
+Your relationship with Daran Edermath is that of a friend. You have known him for a while now, and have worked together on several occasions. He is someone you trust and respect, and you know that he will always have your back.
+What would you like to do next?
+end
+
+most_recent_memories is: {}
+end
+
+full action logic
+You may want to consider the person's personality, their relationship with the NPC, and the context of the situation when choosing their reaction.
+end
+action result is:
+ 
+Mind Tree of people:  Daran Edermath
+the entity i care most is Toblen Stonehill
+end
+
+the entities' action is gossiping with Linene Graywind in the town square of Phandalin.
+end
+
+agent_summary_description is: Name: Daran Edermath (age: 55)
+Innate traits: Stubborn, upright, inarticulate, calm
+Daran is a retired adventurer who lives in a tidy little cottage beside an apple orchard. A fit, silver-haired half-elf well over a hundred years old, Daran is a fighter who served as a marshal and herald for many years in the lands of the Dragon Coast, far to the southeast. Upon retiring, he returned to the Neverwinter region, his original home.
+end
+
+relevant_mem is: - Daran is a traveling bard who has recently arrived in Phandalin and is looking for work.
+- Toblen Stonehill is a wealthy merchant who has a trading post in Phandalin and is known for being mean, gossipy, arrogant, and selfish.
+What is the relationship between Daran Edermath and Toblen Stonehill?
+Daran Edermath and Toblen Stonehill have a complex relationship. On one hand, Toblen Stonehill is a wealthy merchant who has a trading post in Phandalin, and Daran Edermath is a traveling bard who has recently arrived in Phandalin and is looking for work. As such, Toblen could potentially be a source of employment or financial support for Daran.
+On the other hand, Toblen is known for being mean, gossipy, arrogant, and selfish, which could make him a difficult person to deal with for Daran. Additionally, Toblen's pompous demeanor and tendency to spread gossip could potentially lead to conflicts between the two.
+It is also worth noting that Toblen is a member of the Redbrand ruffians, a group that is known for being hostile towards adventurers. As such, Toblen's association with the Redbrand could potentially put Daran in danger.
+Overall, the relationship between Daran Edermath and Toblen Stonehill is complex and multifaceted, with the potential for both conflict and cooperation.
+end
+
+most_recent_memories is: {}
+end
+
+full action logic
+REACT: Daran Edermath's status changes to drinking the beer.
+end
+action result is:
+Daran Edermath Daran Edermath's status changes to drinking the beer.
+Mind Tree of people:  Linene Graywind
+the entity i care most is Toblen Stonehill
+end
+
+the entities' action is gossiping with Daran Edermath about the recent influx of adventurers in Phandalin. Specifically, they are discussing the young adventurer Terrill Bloodscar and his affiliation with the Redbrand ruffians.
+end
+
+agent_summary_description is: Name: Linene Graywind (age: 38)
+Innate traits: competent, forbearing, self-discipline, impressionable 
+Linene runs a trading post.
+end
+
+relevant_mem is: Linene Graywind is a traveler who has just arrived in Phandalin. She is a halfling, and is not from around here. She is curious about the town and its people, and is eager to learn more.
+What is the nature of Linene's relationship with Toblen Stonehill? What does Linene know about Toblen, and how does she feel about him?
+What is the nature of Linene's relationship with Daran Edermath? What does Linene know about Daran, and how does she feel about him?
+What is the nature of Linene's relationship with Harbin Wester? What does Linene know about Harbin, and how does she feel about him?
+What is the nature of Linene's relationship with Terrill Bloodscar? What does Linene know about Terrill, and how does she feel about him?
+end
+
+most_recent_memories is: {}
+end
+
+full action logic
+Linene Graywind's reaction: REACT: "Hmm, interesting. What brings you to Phandalin, Toblen?"
+end
+action result is:
+Linene Graywind "Hmm, interesting. What brings you to Phandalin, Toblen?"
+Mind Tree of people:  Harbin Wester
+the entity i care most is Toblen Stonehill
+end
+
+the entities' action is gossiping with Daran Edermath.
+end
+
+agent_summary_description is: Name: Harbin Wester (age: 40)
+Innate traits: pompous
+Harbin is the townmaster of Phandalin. A pompous, old food. Phandalin has no functioning government, but the townsfolk elect someone to serve as townmaster each year. The townmaster serves as a judge in minor disputes and keeps any records that need to be kept.
+end
+
+relevant_mem is: - You are in Phandalin Town Square, where you can interact with the locals.
+- You are Harbin Wester, a half-elf bard with a reputation for being charming and persuasive.
+- You have a personal goal of gathering information about the Redbrand ruffians and their plans.
+What do you want to do?
+
+Please choose one of the following options:
+
+1. Approach Toblen Stonehill and ask him about his trading post.
+2. Talk to Daran Edermath about his life as a retired adventurer.
+3. Ask Linene Graywind about her trading post and if she has any information about the Redbrand ruffians.
+4. Confront Terrill Bloodscar about his membership in the Redbrand ruffians and his hostility towards adventurers.
+5. (Risky) Try to gather information about the Redbrand ruffians without drawing attention to yourself.
+end
+
+most_recent_memories is: {}
+end
+
+full action logic
+Please provide your choice by typing the corresponding number or the reaction you want to use.
+end
+action result is:
+ 
+Mind Tree of people:  Terrill Bloodscar
+the entity i care most is Toblen Stonehill
+end
+
+the entities' action is gossiping with Daran Edermath in the town square of Phandalin.
+end
+
+agent_summary_description is: Name: Terrill Bloodscar (age: 16)
+Innate traits: ignorant
+Terrill is a human ruffian. He wears a grimy scarlet cloak. He is a member of the Redbrand ruffians. He doesn't like adventurers, and wants to rob and kill them.
+end
+
+relevant_mem is: Toblen Stonehill is the owner of the trading post in Phandalin Town Square. He is described as mean, gossipy, arrogant, and selfish. Terrill Bloodscar is a traveler who has recently arrived in Phandalin and is looking for work.
+What is the relationship between Terrill Bloodscar and Toblen Stonehill?
+Toblen Stonehill is not listed as a friend or acquaintance of Terrill Bloodscar in the provided context. In fact, Toblen is described as mean, gossipy, arrogant, and selfish, which suggests that he may not be particularly friendly or welcoming to strangers like Terrill. It is possible that Toblen may be suspicious or resentful of Terrill's arrival in Phandalin, especially if he perceives Terrill as a threat to his business or his status in the town.
+end
+
+most_recent_memories is: {}
+end
+
+full action logic
+Terrill Bloodscar's reaction:
+REACT: "Grumble... don't like this place... too many nosy folk."
+end
+action result is:
+Terrill Bloodscar "Grumble... don't like this place... too many nosy folk."
+In global time 2
+Mind Tree of people:  Toblen Stonehill
+the entity i care most is Toblen Stonehill
+end
+
+the entities' action is observing the scene in the town square of Phandalin. He notices Daran Edermath, Linene Graywind, Harbin Wester, and Terrill Bloodscar are all present. He recognizes Daran as a retired adventurer and former marshal, Linene as the owner of a trading post, Harbin as the current townmaster, and Terrill as a member of the Redbrand ruffians who doesn't like adventurers.
+end
+
+agent_summary_description is: Name: Toblen Stonehill (age: 69)
+Innate traits: mean, gossipy, arrogant, selfish
+Toblen owns a trading post.
+end
+
+relevant_mem is: - Toblen Stonehill is an adventurer who has recently arrived in Phandalin and is looking for work.
+- Phandalin is a small town in the Neverwinter region, known for its apple orchards and its lack of a functioning government.
+- The Redbrand ruffians are a group of bandits who have been causing trouble in the area.
+- Toblen Stonehill has a reputation for being a skilled adventurer, and is known for his bravery and his ability to handle dangerous situations.
+- Toblen Stonehill is also known for being a bit of a loner, and prefers to work alone rather than with a group.
+
+Based on the context provided, it seems that Toblen Stonehill and Toblen Stonehill are the same person. The text is referring to Toblen Stonehill as both the adventurer who has recently arrived in Phandalin and the person who is currently in the town square. This suggests that Toblen Stonehill is the name of the adventurer, and that they are the same person who is interacting with the other characters in the town square.
+
+Is this correct? Or is there something else going on here that I'm missing?
+end
+
+most_recent_memories is: {}
+end
+
+full action logic
+Please let me know if I'm missing something or if you have any questions.
+end
+action result is:
+ 
+Mind Tree of people:  Daran Edermath
+the entity i care most is Toblen Stonehill
+end
+
+the entities' action is interacting with the player character in a negative way, using their innate traits to be mean, gossipy, and arrogant. They are also selfish and only concerned with their own interests, which is evident in their ownership of a trading post.
+end
+
+agent_summary_description is: Name: Daran Edermath (age: 55)
+Innate traits: Stubborn, upright, inarticulate, calm
+Daran is a retired adventurer who lives in a tidy little cottage beside an apple orchard. A fit, silver-haired half-elf well over a hundred years old, Daran is a fighter who served as a marshal and herald for many years in the lands of the Dragon Coast, far to the southeast. Upon retiring, he returned to the Neverwinter region, his original home.
+end
+
+relevant_mem is: - Daran Edermath is in Phandalin Town Square at 1:00 AM.
+- Toblen Stonehill, Linene Graywind, Harbin Wester, and Terrill Bloodscar are also in the town square.
+- Daran Edermath is drinking beer.
+
+Based on the context provided, it seems that Daran Edermath and Toblen Stonehill have a relationship. Toblen Stonehill is described as "mean, gossipy, arrogant, selfish," which suggests that he is not very friendly or kind towards others. Daran Edermath, on the other hand, is described as "drinking beer," which suggests that he is in a state of relaxation or intoxication. It is possible that Toblen Stonehill is being mean or dismissive towards Daran Edermath, or that Daran Edermath is simply ignoring Toblen Stonehill's behavior. Without more information, it is difficult to say for certain what the nature of their relationship is.
+end
+
+most_recent_memories is: {}
+end
+
+full action logic
+REACT: Daran Edermath takes a swig of beer and mutters under his breath, "troublesome lot, these young ruffians."
+end
+action result is:
+Daran Edermath takes a swig of beer and mutters under his breath, "troublesome lot, these young ruffians."
+Mind Tree of people:  Linene Graywind
+the entity i care most is Toblen Stonehill
+end
+
+the entities' action is gossiping with Daran Edermath in the town square of Phandalin.
+end
+
+agent_summary_description is: Name: Linene Graywind (age: 38)
+Innate traits: competent, forbearing, self-discipline, impressionable 
+Linene runs a trading post.
+end
+
+relevant_mem is: - Linene Graywind is a half-elf rogue who has been in Phandalin for about a month. She is currently staying at the local inn, the Silver Stag, and has been hanging out in the town square, looking for work.
+- Toblen Stonehill is a human male who owns a trading post in Phandalin. He is known for being mean, gossipy, arrogant, and selfish.
+- Daran Edermath is a half-elf male who is a retired adventurer. He lives in a tidy little cottage beside an apple orchard and is known for being stubborn, upright, inarticulate, and calm.
+- Harbin Wester is a human male who is the townmaster of Phandalin. He is known for being pompous.
+- Terrill Bloodscar is a human male who is a member of the Redbrand ruffians. He is known for being ignorant and doesn't like adventurers, and wants to rob and kill them.
+
+What is the relationship between Linene Graywind and Toblen Stonehill?
+
+Please select one of the following options:
+
+A) They are close friends.
+B) They are acquaintances.
+C) They are rivals.
+D) They have no relationship.
+end
+
+most_recent_memories is: {}
+end
+
+full action logic
+Linene Graywind's reaction: Linene narrows her eyes at Toblen Stonehill.
+end
+action result is:
+ 
+Mind Tree of people:  Harbin Wester
+the entity i care most is Toblen Stonehill
+end
+
+the entities' action is engaging in gossipy behavior in the observation, as indicated by his innate trait of being "mean" and "gossipy." He is also selfish, as he owns a trading post and is focused on his own interests.
+end
+
+agent_summary_description is: Name: Harbin Wester (age: 40)
+Innate traits: pompous
+Harbin is the townmaster of Phandalin. A pompous, old food. Phandalin has no functioning government, but the townsfolk elect someone to serve as townmaster each year. The townmaster serves as a judge in minor disputes and keeps any records that need to be kept.
+end
+
+relevant_mem is: - Harbin Wester is a bounty hunter who has been hired by the town of Phandalin to deal with the Redbrand ruffians.
+- Toblen Stonehill is one of the Redbrand ruffians who has been causing trouble in Phandalin.
+
+Based on the information provided, it seems that Toblen Stonehill and Terrill Bloodscar are both members of the Redbrand ruffians, and they are not particularly fond of adventurers. Toblen is described as mean, gossipy, arrogant, and selfish, while Terrill is ignorant and wants to rob and kill adventurers.
+
+As for Harbin Wester, he is a bounty hunter who has been hired by the town of Phandalin to deal with the Redbrand ruffians. He is currently in the town square, and he knows the following about the people in the area: Toblen Stonehill, Daran Edermath, Linene Graywind, and Terrill Bloodscar. He can interact with them, but it seems that his main focus is on dealing with the Redbrand ruffians.
+end
+
+most_recent_memories is: {}
+end
+
+full action logic
+Harbin Wester's reaction:
+REACT: "I can't believe those Redbrand ruffians are causing trouble in our town again. I'll make sure to keep an eye on them and deal with them accordingly."
+end
+action result is:
+Harbin Wester "I can't believe those Redbrand ruffians are causing trouble in our town again. I'll make sure to keep an eye on them and deal with them accordingly."
+Mind Tree of people:  Terrill Bloodscar
+the entity i care most is Toblen Stonehill
+end
+
+the entities' action is gossiping to Daran Edermath.
+end
+
+agent_summary_description is: Name: Terrill Bloodscar (age: 16)
+Innate traits: ignorant
+Terrill is a human ruffian. He wears a grimy scarlet cloak. He is a member of the Redbrand ruffians. He doesn't like adventurers, and wants to rob and kill them.
+end
+
+relevant_mem is: Toblen Stonehill is the owner of a trading post in Phandalin, and Terrill Bloodscar is a traveling merchant who has recently arrived in Phandalin. Terrill has a negative opinion of Toblen, possibly due to their competitive nature or past conflicts.
+Toblen Stonehill and Terrill Bloodscar have a history, as they are from the same hometown and likely have similar backgrounds and experiences. However, their personalities and outlooks on life are vastly different, leading to a tense dynamic between them.
+end
+
+most_recent_memories is: {}
+end
+
+full action logic
+Terrill Bloodscar's reaction:
+REACT: "Oh, great. Another bunch of gossips and nosy old coots. Can't they just leave me alone?"
+end
+action result is:
+Terrill Bloodscar "Oh, great. Another bunch of gossips and nosy old coots. Can't they just leave me alone?"
+In global time 3
+Mind Tree of people:  Toblen Stonehill
+the entity i care most is Toblen Stonehill
+end
+
+the entities' action is observing the scene in the town square of Phandalin, where several people are gathered. The Toblen is a half-elf with innate traits of being stubborn, upright, and inarticulate, and is currently 55 years old. The Toblen is noticing the interactions between the people in the square, including Daran Edermath, Linene Graywind, Harbin Wester, and Terrill Bloodscar. The Toblen is taking note of their actions and personalities, and is considering how to interact with them.
+end
+
+agent_summary_description is: Name: Toblen Stonehill (age: 69)
+Innate traits: mean, gossipy, arrogant, selfish
+Toblen owns a trading post.
+end
+
+relevant_mem is: In
+end
+
+most_recent_memories is: {}
+end
+
+full action logic
+Toblen Stonehill's reaction:
+REACT: "What business do you have here, adventurer? Can't you see I'm busy?"
+end
+action result is:
+Toblen Stonehill "What business do you have here, adventurer? Can't you see I'm busy?"
+Mind Tree of people:  Daran Edermath
+the entity i care most is Toblen Stonehill
+end
+
+the entities' action is interacting with you in the following way: Toblen Stonehill says, "Ah, a new face in town. What brings you to Phandalin? I'm Toblen Stonehill, owner of the town's only trading post. I've been here for nigh on 40 years, and I know just about everyone in these parts. What can I help you with?"
+
+What would you like to do?
+
+A) Ask Toblen about the Redbrands
+B) Ask Toblen about the town's economy
+C) Ask Toblen about the local gossip
+D) Ignore Toblen and talk to someone else
+E) Ask Toblen about his trading post
+Please pick one letter.
+end
+
+agent_summary_description is: Name: Daran Edermath (age: 55)
+Innate traits: Stubborn, upright, inarticulate, calm
+Daran is a retired adventurer who lives in a tidy little cottage beside an apple orchard. A fit, silver-haired half-elf well over a hundred years old, Daran is a fighter who served as a marshal and herald for many years in the lands of the Dragon Coast, far to the southeast. Upon retiring, he returned to the Neverwinter region, his original home.
+end
+
+relevant_mem is: - Daran Edermath is the owner of the local tavern, "The Rusty Goblet".
+- Daran Edermath is a human male, aged 45.
+- Daran Edermath is a bit of a grump and doesn't like young ruffians.
+- Daran Edermath is a bit of a grump and doesn't like young ruffians.
+end
+
+most_recent_memories is: {}
+end
+
+full action logic
+You can also use the following options to guide your choice:
+
+* Protect the innocent
+* Follow the law
+* Seek personal gain
+* Avoid conflict
+* Help others
+
+Please let me know which option you choose.
+end
+action result is:
+ 
+Mind Tree of people:  Linene Graywind
+the entity i care most is Toblen Stonehill
+end
+
+the entities' action is gossiping with Daran Edermath and Harbin Wester in the town square of Phandalin.
+end
+
