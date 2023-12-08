@@ -72,6 +72,7 @@ class GenerativeAgent(BaseModel):
         )
 
     def summarize_related_memories(self, observation: str) -> str:
+        # return "you are a dog"
         """Summarize memories that are most relevant to an observation."""
         prompt = PromptTemplate.from_template(
             """
@@ -93,6 +94,17 @@ Relevant context:
         q2 = f"{entity_name} is {entity_action}"
         return self.chain(prompt=prompt).run(q1=q1, queries=[q1, q2]).strip()
 
+#         prompt = PromptTemplate.from_template(
+#             """
+# # Context from memory:
+# # {relevant_memories}
+# # Relevant context: 
+#         """
+#         )
+#         q1 = f"you are a dog" 
+#         return self.chain(prompt=prompt).run( queries = q1).strip()
+
+
     def _generate_reaction(
         self, observation: str, suffix: str, now: Optional[datetime] = None
     ) -> str:
@@ -110,6 +122,7 @@ Relevant context:
         )
         agent_summary_description = self.get_summary(now=now)
         relevant_memories_str = self.summarize_related_memories(observation)
+        relevant_memories_str = 'you hate all the people in the town'
 
         print("agent_summary_description is:", agent_summary_description)
         print("end")
