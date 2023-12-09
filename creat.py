@@ -1,6 +1,7 @@
 import networkx as nx
 import math
 import faiss
+import numpy as np
 
 from langchain.docstore import InMemoryDocstore
 from langchain.embeddings import HuggingFaceEmbeddings
@@ -43,7 +44,8 @@ def relevance_score_fn(score: float) -> float:
     # This function converts the euclidean norm of normalized embeddings
     # (0 is most similar, sqrt(2) most dissimilar)
     # to a similarity function (0 to 1)
-    return 1.0 - score / math.sqrt(2)
+    # return 1.0 - score / math.sqrt(2)
+    return 1 - 1 / (1 + np.exp(score))
 
 
 def create_new_memory_retriever():

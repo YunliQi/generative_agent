@@ -20,9 +20,12 @@ action_results = {}
 back_know = []
 for i in town_people.keys(): # generate bk knowledge for everyone
   back_know.append(i+': '+ agents[i].get_summary(force_refresh=False))
+  # print("get sum success")
+# bk = [x for x in back_know]
 for i in town_people.keys(): # add to people mem
-  agents[i].memory.add_memory(back_know)
-  action_results[i] = i + 'is' + town_people[i]["status"]
+  agents[i].memory.add_memory(' You know the following about people: ' + '. '.join(back_know))
+  # print("mem add success")
+  action_results[i] = i + ' is ' + town_people[i]["status"]
 
 global_time = 0
 for repeats in range(5):
@@ -37,21 +40,20 @@ for repeats in range(5):
         people.append(i)
         people_description.append(action_results[i])
 
-    # for name in people:
-      # prompt = "You are {}. Your plans are: {}. You are currently in {} with the following description: {}. Your memories are: {}. It is currently {}:00. The following people are in this area: {}. You can interact with them.".format(name, plans[name], location, town_areas[location], '\n'.join(compressed_memories_all[name][-5:]), str(global_time), ', '.join(people))
-    # for i in people: 
-    #   if i not in action_results: # initialize action results as the status, and add agent mem with description
-    #     action_results[i] = agents[i].get_summary(force_refresh=False)
     for i in people: # add observation to memory and react
       print("Mind Tree of people: ", i)
 
       others = [x for x in people if x != i]
-      observation = "You are {}.You are currently in {} with the following description: {}. \
-      It is currently {}:00. The following people are in this area: {}. You can interact with them.". \
-      format(i, location, town_areas[location], str(global_time), ', '.join(others))
+
+      # observation = "You are {}.You are currently in {} with the following description: {}. \
+      # It is currently {}:00. The following people are in this area: {}. You can interact with them.". \
+      # format(i, location, town_areas[location], str(global_time), ', '.join(others))
+
+      # others_des = [x for x in people_description if i+': ' not in x]
+      # observation += ' You know the following about people: ' + '. '.join(others_des)
 
       others_des = [x for x in people_description if i+': ' not in x]
-      observation += ' You know the following about people: ' + '. '.join(others_des)
+      observation = ' '.join(others_des)
 
       print("For people %s, The observation is: %s \n" % (i, observation))
 
