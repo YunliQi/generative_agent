@@ -23,7 +23,7 @@ for i in town_people.keys(): # generate bk knowledge for everyone
   # print("get sum success")
 # bk = [x for x in back_know]
 for i in town_people.keys(): # add to people mem
-  agents[i].memory.add_memory(' You know the following about people: ' + '. '.join(back_know))
+  agents[i].memory.add_memory(' You know the following about people: ' + ' '.join(back_know))
   # print("mem add success")
   action_results[i] = i + ' is ' + town_people[i]["status"]
 
@@ -53,7 +53,7 @@ for repeats in range(5):
       # observation += ' You know the following about people: ' + '. '.join(others_des)
 
       others_des = [x for x in people_description if i+': ' not in x]
-      observation = ' '.join(others_des)
+      observation = '. '.join(others_des)
 
       print("For people %s, The observation is: %s \n" % (i, observation))
 
