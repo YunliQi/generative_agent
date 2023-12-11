@@ -23,7 +23,10 @@ for i in town_people.keys(): # generate bk knowledge for everyone
   # print("get sum success")
 # bk = [x for x in back_know]
 for i in town_people.keys(): # add to people mem
-  agents[i].memory.add_memory(' You know the following about people: ' + ' '.join(back_know))
+  others = [x for x in town_people.keys() if x != i]
+  others_des = [x for x in back_know if i+': ' not in x]
+  observation = '. '.join(others_des)
+  agents[i].memory.add_memory(' You know the following about people: ' + ' '.join(others_des))
   # print("mem add success")
   action_results[i] = i + ' is ' + town_people[i]["status"]
 
@@ -44,14 +47,6 @@ for repeats in range(5):
       print("Mind Tree of people: ", i)
 
       others = [x for x in people if x != i]
-
-      # observation = "You are {}.You are currently in {} with the following description: {}. \
-      # It is currently {}:00. The following people are in this area: {}. You can interact with them.". \
-      # format(i, location, town_areas[location], str(global_time), ', '.join(others))
-
-      # others_des = [x for x in people_description if i+': ' not in x]
-      # observation += ' You know the following about people: ' + '. '.join(others_des)
-
       others_des = [x for x in people_description if i+': ' not in x]
       observation = '. '.join(others_des)
 
@@ -62,3 +57,10 @@ for repeats in range(5):
       action_results[i] = reaction
 
       print("action result is:  %s \n" %(reaction))
+
+      # observation = "You are {}.You are currently in {} with the following description: {}. \
+      # It is currently {}:00. The following people are in this area: {}. You can interact with them.". \
+      # format(i, location, town_areas[location], str(global_time), ', '.join(others))
+
+      # others_des = [x for x in people_description if i+': ' not in x]
+      # observation += ' You know the following about people: ' + '. '.join(others_des)

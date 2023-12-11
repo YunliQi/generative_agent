@@ -191,7 +191,7 @@ Relevant context:
             said_value = self._clean_response(result.split("SAY:")[-1])
             return True, f"{self.name} said {said_value}"
         else:
-            return False, result
+            return False, results   # if not structured by "REACT:" or "SAY:", then return full results (for the robustness)
 
     def generate_dialogue_response(
         self, observation: str, now: Optional[datetime] = None
