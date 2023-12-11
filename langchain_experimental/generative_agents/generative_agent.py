@@ -8,6 +8,7 @@ from langchain.schema.language_model import BaseLanguageModel
 
 from langchain_experimental.generative_agents.memory import GenerativeAgentMemory
 from langchain_experimental.pydantic_v1 import BaseModel, Field
+from server import logger
 
 
 class GenerativeAgent(BaseModel):
@@ -82,10 +83,10 @@ Relevant context:
 """
         )
         entity_name = self._get_entity_from_observation(observation)
-        print("the entity i care most is: %s \n" %(entity_name))
+        logger.log("the entity i care most is: %s \n" %(entity_name))
 
         entity_action = self._get_entity_action(observation, entity_name)
-        print("the entities' action is: %s \n" % (entity_action))
+        logger.log("the entities' action is: %s \n" % (entity_action))
 
         q1 = f"What is the relationship between {self.name} and {entity_name}"
         q2 = f"{entity_name} is {entity_action}"
@@ -121,9 +122,9 @@ Relevant context:
         relevant_memories_str = self.summarize_related_memories(observation)
         # relevant_memories_str = 'you hate all the people in the town'
 
-        print("agent_summary_description is: %s \n"  % (agent_summary_description))
+        logger.log("agent_summary_description is: %s \n"  % (agent_summary_description))
 
-        print("relevant_mem is: %s \n" % (relevant_memories_str))
+        logger.log("relevant_mem is: %s \n" % (relevant_memories_str))
 
         current_time_str = (
             datetime.now().strftime("%B %d, %Y, %I:%M %p")
@@ -143,7 +144,7 @@ Relevant context:
         )
         kwargs[self.memory.most_recent_memories_token_key] = consumed_tokens
 
-        print("most_recent_memories is: %s \n" % (self.memory._get_memories_until_limit(consumed_tokens)))
+        logger.log("most_recent_memories is: %s \n" % (self.memory._get_memories_until_limit(consumed_tokens)))
 
         return self.chain(prompt=prompt).run(**kwargs).strip()
 
@@ -166,7 +167,7 @@ Relevant context:
             observation, call_to_action_template, now=now
         )
 
-        print("full action logic is: %s \n" %(full_result))
+        logger.log("full action logic is: %s \n" %(full_result))
 
         results = full_result.strip().split("\n")
         result = " "

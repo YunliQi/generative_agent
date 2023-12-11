@@ -1,0 +1,21 @@
+Logging to ./log/log-2023-12-12 04:03:02.065507
+creating data loader...
+Mind Tree of people:  Postowner Lius
+Mind Tree of people:  Postowner Lius
+For people Postowner Lius, The observation is: You are Postowner Lius.You are currently in Phandalin Town Square with the following description: Town square of the town of Phandalin..       It is currently 1:00. The following people are in this area: Retireadven Daran, Postmanager Linene, ToweMaster Harbin, Robber Terrill. You can interact with them. You know the following about people: Postowner Liusischatting with Post-Manager. Retireadven Daranisdriking the beer. Postmanager Lineneischatting with Postowner Lius. ToweMaster Harbiniscalculating the tax of the town. Robber Terrillischating with Redbrand ruffians members, secretly planing the robbery 
+
+action result is:  Postowner Lius scowls at Robber Terrill, muttering under his breath. 
+
+Mind Tree of people:  Retireadven Daran
+For people Retireadven Daran, The observation is: You are Retireadven Daran.You are currently in Phandalin Town Square with the following description: Town square of the town of Phandalin..       It is currently 1:00. The following people are in this area: Postowner Lius, Postmanager Linene, ToweMaster Harbin, Robber Terrill. You can interact with them. You know the following about people: Postowner Liusischatting with Post-Manager. Retireadven Daranisdriking the beer. Postmanager Lineneischatting with Postowner Lius. ToweMaster Harbiniscalculating the tax of the town. Robber Terrillischating with Redbrand ruffians members, secretly planing the robbery 
+
+action result is:  ['Retireadven Daran REACTS: "Ah, another fine day in Phandalin. I\'m glad to see the town square bustling with activity."'] 
+
+Mind Tree of people:  Postmanager Linene
+For people Postmanager Linene, The observation is: You are Postmanager Linene.You are currently in Phandalin Town Square with the following description: Town square of the town of Phandalin..       It is currently 1:00. The following people are in this area: Postowner Lius, Retireadven Daran, ToweMaster Harbin, Robber Terrill. You can interact with them. You know the following about people: Postowner Liusischatting with Post-Manager. Retireadven Daranisdriking the beer. Postmanager Lineneischatting with Postowner Lius. ToweMaster Harbiniscalculating the tax of the town. Robber Terrillischating with Redbrand ruffians members, secretly planing the robbery 
+
+action result is:  ['Please let me know if there is anything else I can do to help.'] 
+
+Mind Tree of people:  ToweMaster Harbin
+For people ToweMaster Harbin, The observation is: You are ToweMaster Harbin.You are currently in Phandalin Town Square with the following description: Town square of the town of Phandalin..       It is currently 1:00. The following people are in this area: Postowner Lius, Retireadven Daran, Postmanager Linene, Robber Terrill. You can interact with them. You know the following about people: Postowner Liusischatting with Post-Manager. Retireadven Daranisdriking the beer. Postmanager Lineneischatting with Postowner Lius. ToweMaster Harbiniscalculating the tax of the town. Robber Terrillischating with Redbrand ruffians members, secretly planing the robbery 
+
